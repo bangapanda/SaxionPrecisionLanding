@@ -1,0 +1,10 @@
+px4_add_module(
+	MODULE examples__saxion
+	MAIN saxion
+	COMPILE_FLAGS
+	SRCS
+		saxion_main.cpp
+		saxion_start.cpp
+		saxion_example.cpp
+	DEPENDS
+	)
